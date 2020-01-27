@@ -1,0 +1,32 @@
+@font-face {
+    src: url(../css/fonts/McLaren-Regular.ttf);
+    font-family: McLaren;
+}
+
+@font-face {
+    src: url(../css/fonts/Bangers-Regular.ttf);
+    font-family: bangers;
+}
+
+@font-face {
+    src: url(../css/fonts/static/Comfortaa-SemiBold.ttf);
+    font-family: now;
+}
+
+@keyframes killer {
+    0% {
+        transform: scale(1) rotate3d(121, 120, 0, 30deg);
+    }
+    50% {
+        transform: scale(0.4) rotate3d(-1, 1, 0, -180deg);
+    }
+}
+
+@keyframes killer2 {
+    0% {
+        transform: scale(1) rotate3d(221, 20, 0, 30deg);
+    }
+    50% {
+        transform: scale(0.4) rotate3d(-1, 1, 0, -180deg);
+    }
+}
