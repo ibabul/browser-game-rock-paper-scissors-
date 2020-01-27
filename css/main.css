@@ -73,6 +73,16 @@
         font-size: 30px;
     }
     
+    .psp {
+        background-color: #44bd32;
+        padding: 10px;
+    }
+    
+    .csp {
+        background-color: #e84118;
+        padding: 10px;
+    }
+    
     .score p {
         text-align: center;
         padding: 10px;
@@ -143,7 +153,7 @@
     div.fadeIn {
         opacity: 1;
         pointer-events: all;
-        animation: killer 780ms linear both;
+        animation: killer 580ms linear both;
     }
     
     @keyframes shakePlayer {
